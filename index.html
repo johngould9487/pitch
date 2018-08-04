@@ -1,10 +1,516 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test</title>
+  <title>Homework</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>This is a test website</h1>
-  <p>This is text in a p tag</p>
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-container">
+      <div class="student-info">
+        <h3>Fatima Ahmed</h3>
+      </div>
+      <img src="https://avatars2.githubusercontent.com/u/40001679?v=4" alt="" class="avatar img-circle">
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-3">
+        <h2>Subject</h2>
+      </div>
+      <div class="col-xs-5">
+        <h2>Description</h2>
+      </div>
+      <div class="col-xs-2">
+        <h2>Due date</h2>
+      </div>
+      <div class="col-xs-2">
+        <h2>Status</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Chemistry</h3>
+        <p>Rates of reaction</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from physics and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>7th August</h4>
+        <p>3 days left</p>
+      </div>
+      <div class="col-xs-2 task-status green">
+        Done
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Physics</h3>
+        <p>Projectiles</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from maths and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>9th August</h4>
+        <p>5 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Biology</h3>
+        <p>Cells</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from chemistry and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>6th August</h4>
+        <p>2 days left</p>
+      </div>
+      <div class="col-xs-2 task-status green">
+        Done
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>English</h3>
+        <p>Read</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Read a book</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>9th August</h4>
+        <p>5 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Maths</h3>
+        <p>Quadratics</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Revise how to complete the square when the leading coefficient is not 1</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>6th August</h4>
+        <p>2 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Chemistry</h3>
+        <p>Rates of reaction</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from physics and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>7th August</h4>
+        <p>3 days left</p>
+      </div>
+      <div class="col-xs-2 task-status green">
+        Done
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Physics</h3>
+        <p>Projectiles</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from maths and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>9th August</h4>
+        <p>5 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Biology</h3>
+        <p>Cells</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from chemistry and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>6th August</h4>
+        <p>2 days left</p>
+      </div>
+      <div class="col-xs-2 task-status green">
+        Done
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>English</h3>
+        <p>Read</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Read a book</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>9th August</h4>
+        <p>5 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Maths</h3>
+        <p>Quadratics</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Revise how to complete the square when the leading coefficient is not 1</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>6th August</h4>
+        <p>2 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Chemistry</h3>
+        <p>Rates of reaction</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from physics and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>7th August</h4>
+        <p>3 days left</p>
+      </div>
+      <div class="col-xs-2 task-status green">
+        Done
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Physics</h3>
+        <p>Projectiles</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from maths and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>9th August</h4>
+        <p>5 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Biology</h3>
+        <p>Cells</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from chemistry and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>6th August</h4>
+        <p>2 days left</p>
+      </div>
+      <div class="col-xs-2 task-status green">
+        Done
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>English</h3>
+        <p>Read</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Read a book</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>9th August</h4>
+        <p>5 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Maths</h3>
+        <p>Quadratics</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Revise how to complete the square when the leading coefficient is not 1</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>6th August</h4>
+        <p>2 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Chemistry</h3>
+        <p>Rates of reaction</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from physics and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>7th August</h4>
+        <p>3 days left</p>
+      </div>
+      <div class="col-xs-2 task-status green">
+        Done
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Physics</h3>
+        <p>Projectiles</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from maths and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>9th August</h4>
+        <p>5 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Biology</h3>
+        <p>Cells</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from chemistry and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>6th August</h4>
+        <p>2 days left</p>
+      </div>
+      <div class="col-xs-2 task-status green">
+        Done
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>English</h3>
+        <p>Read</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Read a book</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>9th August</h4>
+        <p>5 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Maths</h3>
+        <p>Quadratics</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Revise how to complete the square when the leading coefficient is not 1</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>6th August</h4>
+        <p>2 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Chemistry</h3>
+        <p>Rates of reaction</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from physics and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>7th August</h4>
+        <p>3 days left</p>
+      </div>
+      <div class="col-xs-2 task-status green">
+        Done
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Physics</h3>
+        <p>Projectiles</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from maths and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>9th August</h4>
+        <p>5 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Biology</h3>
+        <p>Cells</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from chemistry and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>6th August</h4>
+        <p>2 days left</p>
+      </div>
+      <div class="col-xs-2 task-status green">
+        Done
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>English</h3>
+        <p>Read</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Read a book</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>9th August</h4>
+        <p>5 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Maths</h3>
+        <p>Quadratics</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Revise how to complete the square when the leading coefficient is not 1</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>6th August</h4>
+        <p>2 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Chemistry</h3>
+        <p>Rates of reaction</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from physics and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>7th August</h4>
+        <p>3 days left</p>
+      </div>
+      <div class="col-xs-2 task-status green">
+        Done
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Physics</h3>
+        <p>Projectiles</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from maths and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>9th August</h4>
+        <p>5 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Biology</h3>
+        <p>Cells</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Take all knowledge from chemistry and take credit for it</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>6th August</h4>
+        <p>2 days left</p>
+      </div>
+      <div class="col-xs-2 task-status green">
+        Done
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>English</h3>
+        <p>Read</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Read a book</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>9th August</h4>
+        <p>5 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+    <div class="row task">
+      <div class="col-xs-3 task-title">
+        <h3>Maths</h3>
+        <p>Quadratics</p>
+      </div>
+      <div class="col-xs-5 task-description">
+        <p>Revise how to complete the square when the leading coefficient is not 1</p>
+      </div>
+      <div class="col-xs-2 task-due-date">
+        <h4>6th August</h4>
+        <p>2 days left</p>
+      </div>
+      <div class="col-xs-2 task-status red">
+        Incomplete
+      </div>
+    </div>
+  </div>
 </body>
 </html>

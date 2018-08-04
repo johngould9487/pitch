@@ -1,0 +1,36 @@
+.task {
+  padding-top: 12px;
+  color: #333;
+  background-color: #eee;
+  margin-bottom: 1px;
+}
+
+.task:hover {
+  background-color: #ddd;
+}
+
+.task h3, .task h4 {
+  margin-top: 0;
+}
+
+.task-title {
+}
+
+.task-description {
+}
+
+.task-due-date {
+}
+
+.task-status {
+  text-align: right
+}
+
+.green {
+  color: #3B9C50;
+}
+
+.red {
+  color: #CD2D31;
+}
+
